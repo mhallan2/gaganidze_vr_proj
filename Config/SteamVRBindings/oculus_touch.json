@@ -96,6 +96,50 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/left/input/y",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Oculus Y"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Oculus X"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/b",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Oculus B"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Oculus A"
+						}
+					}
+				},
+				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
@@ -138,17 +182,6 @@
 							"output": "/actions/main/in/GrabAxisRight axis"
 						}
 					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/a",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/MovementAxisRight_Y axis"
-						}
-					}
 				}
 			],
 			"poses": [
@@ -184,5 +217,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "First Person BP Game Template-18319896"
 }

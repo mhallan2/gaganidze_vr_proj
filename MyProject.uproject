@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
+	"Plugins": [
+		{
+			"Name": "HPMotionController",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64"
+			]
+		}
+	],
 	"TargetPlatforms": [
 		"AllDesktop",
 		"HoloLens"
